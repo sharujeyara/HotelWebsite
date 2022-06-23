@@ -1,0 +1,116 @@
+body
+{
+    margin: 50;
+    padding: 50;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.navbar-brand
+{
+    font-size:40px;
+    color: rgb(86,61,124);
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+.nav-link
+{
+    border: 2px solid transparent;
+ 
+}
+.nav-link:hover
+{
+    border-bottom: 2px solid blue;
+    transition: 1s;
+    font-style: italic;
+}
+section
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align:left;
+  
+}
+
+/* ----------Home------- */
+/* .home1
+{
+    padding-left: 50px;
+    margin-left: 50px;
+
+} */
+span    
+{
+    color: rgb(86,61,124);
+    font-weight: bold;
+}
+.img2
+{
+    border-radius: 20px;
+    width: 450px;
+    padding-top: 90px;
+}
+  
+.heading2
+{
+    color: rgb(86,61,124);
+    font-weight: bold;
+    padding-top: 100px;
+
+}
+.ser2
+{
+    width: 354px;
+    height: 236px;
+}
+.inner
+{
+    overflow: hidden;
+}
+.card img:hover
+{
+    transform:scale(1.5);
+    transition: 1s;  
+}
+form
+{
+    padding: 40px;
+    box-shadow: 2px 3px 4px rgb(0,0,0.5),
+                -1px -1px 4px rgb(0,0,0.05);
+     border-radius: 20px;
+}
+.sticky
+{
+    position: sticky;
+    top: 0;
+    background: #FFF;
+    z-index: 10;
+    display: block;
+}
+#service h1
+{
+    color: rgb(86,61,124);
+}
+#contact
+{
+    margin-top: 100px;
+    padding: 120px;
+}
+.contactheading
+{
+    color: rgb(86,61,124);
+ 
+}
+
